@@ -1,31 +1,29 @@
-import  styles from './App.css'
-import Card from '../src/components/card.jsx'
-import Navbar from '../src/components/Navbar.jsx'
+
 import './App.css'
-{/* I must import the Card2 component to make sure it shows up*/}
+import Card from './components/card.jsx'
 import Card2 from './components/Card2.jsx'
+import Navbar from './components/Navbar.jsx'
+{/* I must import the Card2 component to make sure it shows up*/}
+
 
 function App() {
  
   return (
     <>
-    <Navbar/>
-    <h1> My React Learning path  </h1>
-    <p> Azaharul Islam</p>
-    <div className={styles.card_container}>
-      <Card/>
+    <Navbar />
+    <h1>Hello World</h1>
+    <p>Welcome to my React App!</p>
+    <Card/>
+    {/* I am using the Card2 component here */}
+
+    <div className="card_container">
+    <Card2 stu_name={"velasco"} stu_class={"ap cs a"} stu_exam={"reacr"} stu_grade={99}/>
+      <Card2 stu_name={"velasco"} stu_class={"ap cs a"} stu_exam={"reacr"} stu_grade={99}/>
+        <Card2 stu_name={"velasco"} stu_class={"ap cs a"} stu_exam={"reacr"} stu_grade={99}/>
+          <Card2 stu_name={"velasco"} stu_class={"ap cs a"} stu_exam={"reacr"} stu_grade={99}/>
+            <Card2 stu_name={"velasco"} stu_class={"ap cs a"} stu_exam={"reacr"} stu_grade={99}/>
     </div>
-    <Card/>
-    <Card/> 
-    <Card/>
-    {/*  I must call the Card2 component to make sure it shows up*/}
-   
-   <Card2 stu_name={"Issac Santos"} stu_class={"advanced prog"} stu_exam={"react_day1"} stu_grade={78} />
-   <Card2 stu_name={"Jazilyn Velasco"} stu_class={"advanced prog"} stu_exam={"react_day3"} stu_grade={80} />
-   <Card2 stu_name={"Jared Meza"} stu_class={"advanced prog"} stu_exam={"react_day2"} stu_grade={100} />
-   <Card2 stu_name={"Bryan Alves"} stu_class={"advanced prog"} stu_exam={"react_day1"} stu_grade={0} />
-   <Card2 stu_name={"Mateus D Souza"} stu_class={"advanced prog"} stu_exam={"react_day4"} stu_grade={95} />
-   
+    
    
     </>
   )
