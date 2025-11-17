@@ -1,16 +1,23 @@
+import  styles from './App.css'
+import Card from '../src/components/card.jsx'
+import Navbar from '../src/components/Navbar.jsx'
 import './App.css'
 {/* I must import the Card2 component to make sure it shows up*/}
 import Card2 from './components/Card2.jsx'
 
 function App() {
  
-
- 
-
   return (
     <>
+    <Navbar/>
     <h1> My React Learning path  </h1>
     <p> Azaharul Islam</p>
+    <div className={styles.card_container}>
+      <Card/>
+    </div>
+    <Card/>
+    <Card/> 
+    <Card/>
     {/*  I must call the Card2 component to make sure it shows up*/}
    
    <Card2 stu_name={"Issac Santos"} stu_class={"advanced prog"} stu_exam={"react_day1"} stu_grade={78} />
