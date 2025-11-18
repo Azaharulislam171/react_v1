@@ -19,7 +19,8 @@ ul{
 }
 
 li{
-    padding:4px;
+    padding:12px;
+    text-align: center;
 }
 
 @media (max-width: 600px){
