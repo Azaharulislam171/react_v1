@@ -91,6 +91,49 @@ function App() {
     description="Comfortable running shoes"
     price="$120.99"
     />
+    <Card3
+    src="https://th.bing.com/th?id=OPHS.6KOuNzlKDjQw%2fw474C474&w=150&h=124&o=5&pid=21.1"
+    name="Nike Air Max"
+    description="Comfortable running shoes"
+    price="$120.99"
+    />
+    <Card3
+    src="https://th.bing.com/th?id=OPHS.6KOuNzlKDjQw%2fw474C474&w=150&h=124&o=5&pid=21.1"
+    name="Nike Air Max"
+    description="Comfortable running shoes"
+    price="$120.99"
+    />
+    <Card3
+    src="https://th.bing.com/th?id=OPHS.6KOuNzlKDjQw%2fw474C474&w=150&h=124&o=5&pid=21.1"
+    name="Nike Air Max"
+    description="Comfortable running shoes"
+    price="$120.99"
+    />
+    <Card3
+    src="https://th.bing.com/th?id=OPHS.6KOuNzlKDjQw%2fw474C474&w=150&h=124&o=5&pid=21.1"
+    name="Nike Air Max"
+    description="Comfortable running shoes"
+    price="$120.99"
+    />
+    <Card3
+    src="https://th.bing.com/th?id=OPHS.6KOuNzlKDjQw%2fw474C474&w=150&h=124&o=5&pid=21.1"
+    name="Nike Air Max"
+    description="Comfortable running shoes"
+    price="$120.99"
+    />
+    <Card3
+    src="https://th.bing.com/th?id=OPHS.6KOuNzlKDjQw%2fw474C474&w=150&h=124&o=5&pid=21.1"
+    name="Nike Air Max"
+    description="Comfortable running shoes"
+    price="$120.99"
+    />
+    <Card3
+    src="https://th.bing.com/th?id=OPHS.6KOuNzlKDjQw%2fw474C474&w=150&h=124&o=5&pid=21.1"
+    name="Nike Air Max"
+    description="Comfortable running shoes"
+    price="$120.99"
+    />
+ 
     </div>
    
     </>

@@ -5,7 +5,7 @@ return(
         <img src={props.src} alt={props.alt}/>
         <p> {props.name} </p>
         <p>{props.description} </p>
-        <p>{props.price} </p>
+        <p className={styles.card_price}>{props.price} </p>
     </div>
 )
 }
