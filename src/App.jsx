@@ -3,7 +3,11 @@ import './App.css'
 import Card from './components/card.jsx'
 import Card2 from './components/Card2.jsx'
 import Card3 from './components/Card3.jsx'
+import Form from './components/Form.jsx'
 import Navbar2 from './components/Navbar2.jsx'
+import Toggle from './components/Toggle.jsx'
+
+
 
 
 
@@ -15,8 +19,9 @@ function App() {
   return (
     <>
     <Navbar2/>
+    <Form/>
     {/* I am using the Card2 component here */}
-
+    <Toggle/>
     <div className="card_container">
 
       <Card2 
